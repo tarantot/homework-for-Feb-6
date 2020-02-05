@@ -17,4 +17,4 @@ newdict = {}
 print('\nNEW DICTIONARY:\n')
 for key in dictchinese:
     newdict[key] = [d[key] for d in (dictchinese, dictthai, dicthindi)] 
-    print(newdict)
+print(newdict)
